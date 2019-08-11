@@ -1,0 +1,24 @@
+{
+  "name": "js-css-font-detect",
+  "version": "0.3.0",
+  "description": "Font Detect - Base on Lalit Patel's 2012 code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oculus42/font-detect.git"
+  },
+  "keywords": [
+    "font-detect",
+    "fonts",
+    "clientjs"
+  ],
+  "author": "Samuel Rouse",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/oculus42/font-detect/issues"
+  },
+  "homepage": "https://github.com/oculus42/font-detect#readme"
+}
