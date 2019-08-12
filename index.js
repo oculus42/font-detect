@@ -7,11 +7,13 @@
  * See CHANGELOG.md for revision details
  */
 
+/* eslint-env browser */
+
 /**
  * Usage: d = new Detector();
  *        d.detect('font name');
  */
-const Detector = function () {
+window.Detector = function () {
   // a font will be compared against all the three default fonts.
   // and if it doesn't match all 3 then that font is not available.
   const baseFonts = ['monospace', 'sans-serif', 'serif'];
@@ -31,27 +33,25 @@ const Detector = function () {
   s.innerHTML = testString;
   const defaultWidth = {};
   const defaultHeight = {};
-  for (const index in baseFonts) {
-    const base = baseFonts[index];
+  baseFonts.forEach((base) => {
     // get the default width for the three base fonts
     s.style.fontFamily = base;
     h.appendChild(s);
     defaultWidth[base] = s.offsetWidth; // width for the default font
     defaultHeight[base] = s.offsetHeight; // height for the default font
     h.removeChild(s);
-  }
+  });
 
   function detect(font) {
     let detected = false;
-    for (const index in baseFonts) {
-      const base = baseFonts[index];
+    baseFonts.forEach((base) => {
       s.style.fontFamily = `${font},${base}`; // name of the font along with the base font for fallback.
       h.appendChild(s);
       const matched = s.offsetWidth !== defaultWidth[base]
         || s.offsetHeight !== defaultHeight[base];
       h.removeChild(s);
       detected = detected || matched;
-    }
+    });
     return detected;
   }
 
