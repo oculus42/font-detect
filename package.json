@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/oculus42/font-detect/issues"
   },
-  "homepage": "https://github.com/oculus42/font-detect#readme"
+  "homepage": "https://github.com/oculus42/font-detect#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  }
 }
