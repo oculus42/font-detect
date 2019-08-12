@@ -1,6 +1,6 @@
 {
   "name": "js-css-font-detect",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Font Detect - Base on Lalit Patel's 2012 code",
   "main": "index.js",
   "scripts": {
