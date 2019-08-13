@@ -1,6 +1,8 @@
 # Font Detect
 Based on js-css-font-detect by Lalit Patel.
 
+[![npm version](https://badge.fury.io/js/js-css-font-detect.svg)](https://badge.fury.io/js/js-css-font-detect)
+
 ## About
 
 0.3.0 is the original code from 2012.

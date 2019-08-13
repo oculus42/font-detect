@@ -5,6 +5,7 @@ in a browser using JavaScript and CSS.
 ## 0.4.0 - 2019-08-13
 * Minor optimization reduces run time by ~10%.  
 * Add `version` to the instance for convenient reference.
+* Add README.md.
 
 ## 0.3.0 - 2019-08-11
 * Created & published npm package.
