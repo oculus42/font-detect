@@ -1,7 +1,7 @@
 {
   "name": "js-css-font-detect",
-  "version": "0.3.0",
-  "description": "Font Detect - Base on Lalit Patel's 2012 code",
+  "version": "0.4.0",
+  "description": "Font Detect - Based on Lalit Patel's 2012 code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
